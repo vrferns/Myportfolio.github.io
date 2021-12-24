@@ -1,0 +1,32 @@
+.MyWork {
+    background-color: gray;
+    font-size: 25px;
+    font-family: 'Californian FB', Times, serif;
+    height: 100%;
+}
+
+.MyWork .work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.MyWork .work .proj {
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.MyWork .work .proj img {
+    height: 100%;
+    width: 100%;
+}
+
+.MyWork .work .proj:hover img {
+    transform: scale(1.2);
+}

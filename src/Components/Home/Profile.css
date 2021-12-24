@@ -1,0 +1,113 @@
+.profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 20%;
+    min-height: fit-content;
+    background-color: rgb(152, 197, 29);
+    padding-left: 55px;
+}
+
+.profile-parent {
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+}
+
+.profile-details {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50%;
+    min-height: fit-content;
+}
+
+.profile-role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+.profile-role h1 {
+    font-size: 50px;
+    font-family: verdana;
+}
+
+.primary-text {
+    color: yellow;
+}
+
+.profile-role-tagline {
+    font-size: 30px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+
+.porile-option .highlighted-btn {
+    margin: 0 0 0 28px;
+    text-align: center;
+    height: 30px;
+    appearance: auto;
+}
+
+.porile-option .highlighted-btn:hover {
+    margin: 0 0 0 28px;
+    text-align: center;
+    background-color: red;
+    color: black;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 0px 0px red;
+    border-radius: 50%;
+    height: 400px;
+    width: 350px;
+    margin: 0px 0px 0px 100px;
+}
+
+.profile-picture-background {
+    height: 350px;
+    width: 300px;
+    background-image: url("../../Components/Home/valley.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: ease-in;
+}
+
+@media screen and (max-width:991px) {
+    .primary-text {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .profile {
+        padding-left: 35px;
+    }
+    .heading {
+        margin: 0rem !important;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .profile {
+        display: block;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .profile-picture-background {
+        width: 200px !important;
+    }
+    .profile-picture {
+        width: 220px;
+    }
+}
+
+@media screen {}

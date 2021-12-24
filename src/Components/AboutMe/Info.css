@@ -1,0 +1,52 @@
+.head {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid rgba(10, 2, 2, 0.267);
+    color: #c93c3c;
+}
+
+.about {
+    background-color: gray;
+    font-size: 25px;
+    font-family: 'Californian FB', Times, serif;
+    height: 100%;
+}
+
+.about.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about.row.info {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about.row.info h3 {
+    margin: 2px auto;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+h3 {
+    color: antiquewhite;
+    font-size: 25px;
+    padding: 25px 25px;
+}
+
+@media screen and (max-width:400px) {
+    header {
+        width: 100%;
+    }
+    .head {
+        margin: 0 3rem;
+    }
+}

@@ -1,0 +1,21 @@
+.primary-btn {
+    color: white;
+    border: 2px solid linen;
+    border-radius: 30% 30%;
+    font-size: 12px;
+    height: 30px;
+    background-color: #1f2235;
+}
+
+.primary-btn:hover {
+    color: aliceblue;
+    border-radius: 2px solid #e20d0d;
+    background-color: white;
+}
+
+.highlighted-btn {
+    color: white;
+    border: 2px solid linen;
+    font-size: 12px;
+    background-color: #1f2235;
+}
