@@ -14,7 +14,7 @@ export default function App() {
        <>
 
         <Navmenu/>
-        
+        <Profile/>
         <Info/>
         <MyWork/>
         <Contact/>

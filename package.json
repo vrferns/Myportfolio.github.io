@@ -1,6 +1,6 @@
 {
-    "name": "myportfolio",
     "homepage": "https://vrferns.github.io/Myportfolio.github.io",
+    "name": "myportfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
