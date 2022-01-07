@@ -13,9 +13,9 @@ export default function Contact() {
         <h2 className = "title" > contact info </h2> 
 
         <div className = "info" >
-        <h4 className = "info_cont" > < i > < FaPhoneAlt / > </i>+91 8805346933 </h4 >
-        <h4 className = "info_cont" > < i > < FaEnvelope / > </i> vrferns17 @gmail.com </h4 >
-        <h4 className = "info_cont" > < i > < MdLocationPin / > </i>Goa, India </h4 >
+        <h4 className = "info_cont" > < i > <FaPhoneAlt/> </i>+91 8805346933 </h4 >
+        <h4 className = "info_cont" > < i > <FaEnvelope/> </i> vrferns17 @gmail.com </h4 >
+        <h4 className = "info_cont" > < i > <MdLocationPin/> </i>Goa, India </h4 >
         </div>    
         </div>   
 
@@ -27,7 +27,7 @@ export default function Contact() {
         <div className = "contact_form_container py-5" >
         <div className = "contact_form_title" > Get in Touch </div> 
 
-        <form id = "contact_form" >
+        <form id = "contact_form" action='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox' >
         <div className = "contact_form_name d-flex " >
         <input type = "text"id = "contact_form_name"placeholder = "Your name"className = "contact_form_name"required = "true" />
         <input type = "email"id = "contact_form_"placeholder = "email"className = "contact_form_email"required = "true" />
@@ -38,7 +38,7 @@ export default function Contact() {
         </textarea>   
         </div > 
         < div className = "contact_form_button" >
-        <button type = "submit"className = "button contact_submit_button" > < i > < FaPaperPlane /> Send Message </i></button >
+        <button type = "submit"className = "button contact_submit_button" > < i > <FaPaperPlane/> Send Message </i></button >
         </div>
 
         </form>
