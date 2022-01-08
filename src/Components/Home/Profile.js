@@ -23,10 +23,13 @@ export default function Profile() {
         </span> 
          </div>      
          <div className = 'porile-option' >
-        <button className = "btn primary-btn" > 
-        { "" }
-        Hire Me { " " } 
-        </button>  
+             <a href="/Contact">
+             <button className = "btn primary-btn" > 
+               { "" }
+               Contact Me { " " } 
+             </button>  
+             </a>
+        
         <a href = "\myMarksheet.pdf"download = "\myMarksheet.pdf" >
         <button className = "btn highlighted-btn" > my MarksSheet </button> 
         </a>  

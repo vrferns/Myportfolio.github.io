@@ -106,4 +106,10 @@ button:hover {
     .title {
         font-size: 25px;
     }
+    input[type] {
+        background-color: #000;
+    }
+    textarea {
+        background: #000;
+    }
 }
